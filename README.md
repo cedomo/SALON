@@ -1,5 +1,6 @@
 # SALON
 Project structure：
+
 │ ├── ChatGPT/
 
 │ ├────── outputs/ # The results of different insight prompts in the experiment
