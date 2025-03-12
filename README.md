@@ -20,8 +20,10 @@ Project structure：
 
 │ ├── data analysis.xlsx # Detailed evaluation data for all experiments
 
+│ ├── evaluate.py
+
 │ ├── insight_extractor.py
 
-│ ├── evaluate.py
+│ ├── merge_insights.py # Merge insights from different essays
 
 │ └── prompts.py
