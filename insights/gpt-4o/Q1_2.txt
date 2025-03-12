@@ -1,0 +1,5 @@
+The paper proposes a novel approach called SESSION (SentEnce-Structure-based SentIment analysis for sOftware eNgineering) to improve sentiment analysis in software engineering (SE) texts. It addresses the unique expression of sentiments in SE texts, which are often indirect and dispersed compared to social media texts. The approach involves three main steps: 
+1. **Preprocessing and Segmentation**: SE texts are preprocessed to filter out technical terms and segmented into clauses using Stanford CoreNLP.
+2. **Filter Rules**: These rules identify whether a sentence likely expresses sentiment by matching specific patterns, such as direct sentiment indicators or decorated sentiment patterns.
+3. **Adjust Rules**: These rules enhance sentiment analysis by recognizing subjunctive moods, identifying polysemous words based on sentence structure, and refining negation handling.
+The approach integrates these rules with SentiStrength, a dictionary-based sentiment analysis tool, to achieve better accuracy and generalizability across various SE datasets.

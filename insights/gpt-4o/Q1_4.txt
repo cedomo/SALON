@@ -1,0 +1,7 @@
+The paper presents a method for entity-level sentiment analysis specifically tailored for software engineering texts, such as issue comments on platforms like GitHub. The approach involves several key steps:
+1. **Dataset Generation**: A manually labeled dataset of 3,000 issue comments is created from GitHub projects to train the sentiment analysis tool.
+2. **Preprocessing**: Texts are cleaned by removing non-English characters, code snippets, URLs, and stop words. Emoticons and punctuation are processed to capture sentiment nuances.
+3. **Feature Vectorization**: Techniques like TF-IDF and Doc2vec are used to convert text into feature vectors.
+4. **Classification**: Supervised machine learning algorithms, such as Gradient Boosting Trees, are employed to classify sentiments into positive, negative, or neutral categories.
+5. **Entity Recognition**: A rule-based method identifies the sentiment target as either 'Person' or 'Project' using named entity recognition and part-of-speech tagging.
+This approach aims to improve sentiment analysis accuracy by considering the specific context and language of software engineering.
